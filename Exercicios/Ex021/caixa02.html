@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+        nav{
+            background-color: rgb(211, 211, 211);
+            padding: 3px;
+            box-shadow: 4px 3px 6px 0px black;
+            
+        }
+        
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        
+        }
+        article > aside{
+            background-color: rgb(210, 189, 189);
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 25px 5px;
+             
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime modi, reprehenderit soluta quod cum doloremque placeat perferendis architecto quisquam facere repellendus ea exercitationem nulla! Esse corrupti maxime eaque animi doloremque.</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>
