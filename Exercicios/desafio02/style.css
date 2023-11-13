@@ -3,16 +3,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
 :root{
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', sans-serif;
     --fonte3: 'Sriracha', cursive;
 }
+
 * {
     margin: 0px;
     padding: 0px;
     font-size: 1em;
-    
 }
 html, body{
     min-height: 100vh;
@@ -62,6 +63,7 @@ section.imagem{
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.471);
     background-size: cover;
     background-attachment: fixed;
+    background-position: right center;
 }
 section.imagem > p{
     display: inline-block;
@@ -71,13 +73,10 @@ section.imagem > p{
 }
 section#img01{
     background-image: url(../desafio02/imagens/background001.jpg);
-    background-position: right center;
-  
-
+    
 }
 section#img02{
     background-image: url(../desafio02/imagens/background002.jpg);
-  
 }
 footer{
     background-color: black;
