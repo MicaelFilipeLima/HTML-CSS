@@ -195,14 +195,14 @@ footer{
     padding: 5px;
 }
 
-/* Configurações do sublinhado do cabeçalho */
+/* Configurações do sublinhado do rodapé */
 footer a{
     color: white;
     font-weight: bolder;
     text-decoration: none;
 }
 
-/* Colocar sublinhado no cabeçalho */
+/* Colocar sublinhado no rodapé */
 footer a:hover{ 
     text-decoration: underline;
     color: var(--cor01);
